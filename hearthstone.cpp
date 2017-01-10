@@ -42,7 +42,7 @@ void printBoard(int currentPlayer, vector<Card> collection)
 		}	
 	}	
 	
-	
+	// could have overloaded operator to output Card to stream, avoids copy pasting code
 	
 }
 
@@ -58,6 +58,9 @@ int main()
 	
 	// mana starts at 1, turn counter is 1
 	
+	int manaOne = 0;
+	int manaTwo = 0;
+	int currentPlayer = 1;
 	
 	while(gameOver == false)
 	{

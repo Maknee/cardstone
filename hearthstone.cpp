@@ -53,9 +53,14 @@ Card draw(int currentPlayer, vector<Card>* collection, vector<Card>* deck)
 	
 }
 
+void SurrenderCausePriateWarrior()
+{
+	exit(reinterpret_cast<int>("hehexD"));	
+}
 
 int main()
 {
+	SurrenderCausePriateWarrior();
 	// initialize
 	bool gameOver = false;
 	vector<Card> collection;
